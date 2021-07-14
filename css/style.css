@@ -7,6 +7,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #73737b;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  line-height: 1.7em;
 }
 
 a {
@@ -418,140 +422,87 @@ background-position: 100% 0;
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
-
-#footer {
-  background: #362E52;
-  padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer .footer-top {
-  background: #362E52;
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 60px 0 30px 0;
-
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #da9717;
-  color: #fff;
-  line-height: 1;
-  padding: 5px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #FFB11A;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
+.theme-footer-one {
   position: relative;
-  padding-bottom: 12px;
+  padding: 50px 0px;
 }
 
-#footer .footer-top .footer-links {
+.theme-footer-one  ul{
+padding-left: 22px;
+}
+
+.theme-footer-one p{
+font-size: 16px;
+}
+
+.theme-footer-one:before {
+  content: url(../images/assets/ils_01.svg);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+.theme-footer-one .top-footer [class*=col-] {
   margin-bottom: 30px;
 }
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.theme-footer-one .top-footer .footer-title {
+  font-family: Rubik, sans-serif;
+  font-size: 24px;
+  padding-bottom: 25px;
 }
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #FFB11A;
-  font-size: 18px;
-  line-height: 1;
+.theme-footer-one .top-footer .footer-list ul li a {
+  font-size: 16px;
+  line-height: 38px;
+  color: #727272;
+  transition: all .3s ease-in-out;
 }
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
+.theme-footer-one .top-footer .footer-list ul li a:hover {
+  color: var(--blue-dark);
 }
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+.theme-footer-one .top-footer .address-list ul li a {
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 10px;
 }
-
-#footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
-  transition: 0.3s;
+.theme-footer-one .top-footer .address-list ul li a:hover {
+  text-decoration: underline;
+}
+.theme-footer-one .top-footer .address-list ul li a.mobile-num {
+  font-size: 20px;
+  color: #030303;
+}
+.theme-footer-one .bottom-footer-content ul li {
   display: inline-block;
-  line-height: 1;
+}
+.theme-footer-one .bottom-footer-content ul li a {
+  font-size: 16px;
+  color: #727272;
+  margin-left: 20px;
+}
+.theme-footer-one .bottom-footer-content ul li a:hover {
+  color: #000;
+}
+.theme-footer-one .bottom-footer-content p {
+  font-size: 15px;
+  color: #6a6a6a;
+}
+.theme-footer-one .bottom-footer-content {
+  padding: 26px 0 30px;
+}
+.theme-footer-one .bottom-footer-content ul {
+  padding-right: 97px;
 }
 
-#footer .footer-top  a{
-color: rgba(255, 255, 255, 0.6) !important;
-}
-
-#footer .footer-top a:hover {
-  color: #FFB11A !important;
-}
-
-#footer .footer-top a:hover i{
-color: #fff !important;
-}
-
-.col_yel{
-color:#FFB11A ;
+.theme-footer-one:before {
+content: url(../images/assets/ils_01.svg);
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
 }
 
 
-.footer-newsletter img{
-width: 100%;
-}
-
-
-
-#footer .copyright {
-  text-align: left;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  color: #9eccf4;
+.theme-footer-one img{
+width: 40%;
 }

@@ -268,5 +268,57 @@ background: #ffba12 !important;
 }
 
 
+/* common */
+.title-style-one h2 {
+font-size: 58px;
+line-height: 1.15em;
+font-weight: bold;
+}
 
+
+.mb-190 {
+margin-bottom: 190px;
+}
+
+
+/* extraction */
+
+#extraction {
+padding: 10rem 0px 5rem;
+}
+
+.block-style-two>[class*=col-] {
+padding: 0 30px;
+}
+
+#extraction .screen-one {
+z-index: -5;
+top: -19%;
+right: 15%;
+}
+
+#extraction img{
+max-width: 100%;
+}
+
+#extraction .dot-shape {
+z-index: -1;
+top: 32%;
+right: 37%;
+width: 60%;
+}
+
+.cs-screen {
+position: absolute;
+}
+
+
+/* how it works */
+
+#how__it{
+position: relative;
+z-index: 3;
+background: linear-gradient(45deg,#fffbf2,#edfffd);
+padding: 235px 0 170px;
+}
 
