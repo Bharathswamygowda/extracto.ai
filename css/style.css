@@ -8,24 +8,36 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #73737b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   line-height: 1.7em;
 }
 
 a {
-  color: #428bca;
+  color: #1da1f4;
+  font-weight: 700;
 }
 
 a:hover {
-  color: #9eccf4;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
-  color: #101621;
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+}
+
+.titleHeading h2, .titleHeading h4, .titleHeading h5, .titleHeading h6 {
+font-size: 30px;
+margin: 0px;
+color: #122447;
+}
+
+.titleHeading h3 {
+color: #122447;
+font-size: 25px;
+margin: 10px 0px;
+font-weight: 300;
 }
 
 
@@ -81,7 +93,6 @@ z-index: 997;
 position: fixed;
 width: 100%;
 background-color: #fff;
-box-shadow: 0 20px 30px rgb(0 0 0 / 5%);
 }
 
 
@@ -409,12 +420,13 @@ text-align: center;
 transition: .25s ease-in-out;
 border-radius: 10px;
 font-weight: 500;
-padding: 12px 32px !important;
+padding: 7px 25px !important;
+
 }
 
 
 .space{
-top: 3px;
+top: 9px;
 }
 
 .btn__full:hover{
@@ -435,11 +447,31 @@ text-align: center;
 transition: .25s ease-in-out;
 border-radius: 10px;
 font-weight: 500;
-padding: 12px 32px !important;
+padding: 7px 25px !important;
 }
 
 .btn.focus, .btn:focus{
 box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
+}
+
+
+
+.btn-big{
+background: #1da1f3;
+font-size: 16px;
+color: #fff;
+padding:10px 35px;;
+border-radius: 100px;
+display: inline-block;
+font-weight: bold;
+}
+
+.btn-big:hover{
+color: #fff;
+}
+
+button:focus{
+outline: 0;
 }
 
 
@@ -448,7 +480,8 @@ box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
 --------------------------------------------------------------*/
 .theme-footer-one {
   position: relative;
-  padding: 50px 0px;
+  padding: 50px 0px 20px;
+  background: #f2f3f5;
 }
 
 .theme-footer-one  ul{
