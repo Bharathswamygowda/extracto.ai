@@ -1,0 +1,173 @@
+#hero{
+height: 100vh;
+background-image: url("../images/assets/banner.png");
+position: relative;
+background-size: cover;
+}
+
+#hero .heroBannerInfoSec {
+position: absolute;
+top: 50%;
+background: #fff;
+padding: 30px;
+left: 35px;
+z-index: 11;
+width: 420px;
+min-height: 420px;
+-webkit-box-shadow: 0px 0px 29px 0px rgb(0 0 0 / 12%);
+-moz-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.12);
+box-shadow: 0px 0px 29px 0px rgb(0 0 0 / 12%);
+display: inline-grid;
+transform: translate(10px,-50%);
+}
+
+
+#hero .heroBannerInfoSec h1 {
+font-weight: 400;
+margin-bottom: 15px;
+background: #dd1591;
+background: -webkit-linear-gradient(to right,#dd1591 0%,#7151e2 100%);
+background: -moz-linear-gradient(to right,#dd1591 0%,#7151e2 100%);
+background: linear-gradient(to right,#dd1591 0%,#7151e2 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2.7rem !important;
+}
+
+#hero .heroBannerInfoSec h1 span{
+color: #9e005f;
+font-weight: 700;
+}
+
+
+#natural__language{
+padding: 70px 25px ;
+}
+
+
+#benifits{
+padding: 70px 25px ;
+}
+
+
+.ourServicesPorInfo {
+text-align: center;
+margin: 0 auto;
+position: relative;
+}
+
+.ourServicesPorInfo h4 {
+font-size: 34px;
+color: #122447;
+}
+
+.ourServicesPorInfo h4 .dotSec{
+position: absolute;
+bottom: -14px;
+width: 10px;
+height: 10px;
+display: inline-block;
+background: #ffbb09;
+transform: translate(-50%,0);
+left: 50%;
+z-index: 100;
+}
+
+.ourServicesPorInfo h4::after {
+content: "";
+position: absolute;
+bottom: -10px;
+width: 230px;
+height: 1px;
+display: inline-block;
+background: #8045b2;
+transform: translate(-50%,0);
+left: 50%;
+}
+
+
+.ospBoxSection{
+background: #fff;
+padding: 20px 15px;
+text-align: center;
+border: 1px solid #ddd;
+border-radius: 10px;
+min-height: 350px;
+}
+
+.iconSectionForBox{
+margin-bottom: 10px;
+}
+
+.iconSectionForBox i{
+font-size: 45px;
+}
+
+.ospBoxSection h4 {
+color: #1da1f3;
+line-height: 1.5em;
+height: 46px;
+font-size: 18px;
+font-weight: normal;
+}
+
+.ospBoxSection:hover {
+background: #ffbb09;
+}
+
+ .ospBoxSection:hover p, .ospBoxSection:hover h4, .ospBoxSection:hover i {
+    color: #fff;
+ }
+
+.ospBoxSection p {
+padding-bottom: 30px;
+font-size: 16px;
+}
+
+.owl-carousel button{
+transform: translateY(-50%);
+width: 56px;
+height: 56px;
+border-radius: 50%;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-pack: center;
+justify-content: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: #fff;
+box-shadow: 0 10px 50px -15px rgb(41 39 44 / 50%);
+position: absolute;
+top:50%;
+}
+
+
+.owl-carousel button.owl-next{
+right: 0;
+}
+
+.owl-stage-outer { 
+overflow: visible;
+}
+
+
+
+#how__works{
+padding: 70px 25px ;
+}
+
+.box{
+background: #fff;
+border-radius: 3px;
+box-shadow: 1px 25px 60px -10px rgb(41 39 44 / 10%);
+}
+
+.box img{
+width: 80%;
+display: block;
+margin: auto;
+}
+
+#natural__language img{
+width: 100%;
+}
