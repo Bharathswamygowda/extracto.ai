@@ -81,12 +81,13 @@ z-index: 997;
 position: fixed;
 width: 100%;
 background-color: #fff;
+box-shadow: 0 20px 30px rgb(0 0 0 / 5%);
 }
 
 
 .scrolled{
 transition: all 0.5s;
-box-shadow: 0 13px 35px -12px rgb(35 35 35 / 10%);
+box-shadow: 0 20px 30px rgb(0 0 0 / 5%);
 }
 
 
@@ -121,16 +122,16 @@ margin-left: 30px !important;
 .nav-menu a {
 display: block;
 position: relative;
-color: #2B2C2E;
+color: #989898;
+font-weight: 500;
 padding: 12px 15px;
-font-size: 16px;
+font-size: 14px;
 text-transform: capitalize;
-position: relative;
 transition: all 0.3s ease-in-out;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #6f55ff;
+  color: #1ea1f3;
   text-decoration: none;
 }
 
@@ -162,9 +163,9 @@ transition: all 0.3s ease-in-out;
 
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
-  color: #101621;
+  color: #122447;
   z-index: 1;
   transition: all 0.3s ease-in-out;
   white-space: inherit;
@@ -173,7 +174,7 @@ transition: all 0.3s ease-in-out;
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul a:focus  {
 padding-left: 30px;
 background: #f5f5f5;
-color: #6f55ff;
+color: #1ea1f3;
 }
 
 
@@ -395,28 +396,51 @@ max-height: 60px;
 # button
 --------------------------------------------------------------*/
 
-.btn__text {
+.btn__full {
 position: relative;
 display: block;
 border: 1px solid transparent;
-padding: 13px 32px;
-font-size: 15px !important;
-line-height: 18px;
-background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
-background-size: 200% 100%;
-background-position: 0 0;
+font-size: 14px;
+line-height: 20px;
+background: #1da1f3;
 color: #fff !important;
 text-decoration: none;
 text-align: center;
 transition: .25s ease-in-out;
 border-radius: 10px;
+font-weight: 500;
+padding: 12px 32px !important;
 }
 
 
-.btn__text:hover{
+.space{
+top: 3px;
+}
+
+.btn__full:hover{
 background-position: 100% 0;
+color: #fff !important;
 }
 
+
+.btn__outline{
+position: relative;
+display: block;
+border: 2px solid #1da1f3;
+font-size: 14px;
+line-height: 20px;
+color: #122447 !important;
+text-decoration: none;
+text-align: center;
+transition: .25s ease-in-out;
+border-radius: 10px;
+font-weight: 500;
+padding: 12px 32px !important;
+}
+
+.btn.focus, .btn:focus{
+box-shadow: 0 0 0 0 rgb(0 123 255 / 25%);
+}
 
 
 /*--------------------------------------------------------------
